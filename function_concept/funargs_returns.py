@@ -19,5 +19,6 @@ print(greet)
 #keyword arguments
 def add(a,b,c=10):
     return f"the sum of a,b and the default argument c is {a+b+c}"
-sum=add(b=1,a=4,c=0)
+sum=add(b=1,a=4,c=0)# when i provide the value here python override the value in default argument and give the sum of numbers 
+# and if u didn't provide any value python will  take the default value and write down the sum
 print(sum)
